@@ -24,5 +24,6 @@ total_unique_attendees = len(unique_attendees_set)
 
 # Output
 print("\n🎯 Results")
+print("-" * 30)
 print(f"Unique participants across all sessions: {', '.join(sorted(list(unique_attendees_set)))}")
 print(f"Total unique participants: {total_unique_attendees}")
